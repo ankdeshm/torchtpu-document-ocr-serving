@@ -1,0 +1,2 @@
+{"repo": "document-ocr", "model": "Qwen/Qwen2.5-VL-7B-Instruct", "engine": "sglang-torchtpu", "tp": 2, "status": "boot_error", "boot_s": 161.0, "msg": "exited rc=-9", "root_cause": "sglang_tpu/mm_embed_tpu.py:139 RuntimeError: index_put_(): expected tensor to be on tpu, got cpu"}
+{"repo": "document-ocr", "model": "deepseek-ai/DeepSeek-OCR", "engine": "sglang-torchtpu", "tp": 2, "status": "boot_error", "boot_s": 67.0, "msg": "exited rc=-9", "root_cause": "sglang_tpu/mm_embed_tpu.py:139 RuntimeError: index_put_(): expected tensor to be on tpu, got cpu"}
